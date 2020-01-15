@@ -1,0 +1,165 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: url(bg.jpg);
+    font-size: 16px;
+    color: #777;
+    font-family: cursive;
+    font-weight: 300;
+}
+
+#login-box
+{
+    position: relative;
+    margin: 5% auto;
+    height: 550px;
+    width: 800px;
+    background: transparent;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.left-box
+{
+	border-radius: 25px;
+    position: relative;
+	top: 50px;
+    left: 50px;
+    box-sizing: border-box;
+    padding: 40px;
+    height: 450px;
+    width: 300px;
+    background: #e6e6ff;
+    background-size:cover;
+    background-position: center;    
+}
+
+.or
+{
+    position: absolute;
+    top: 230px;
+    left: 365px;
+    width: 75px;
+    height: 75px;
+    background: #efefef;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    line-height: 40px;
+    text-align: center;
+	
+}
+.right-box
+{
+
+border-radius: 25px;
+    position: absolute;
+    top: 120px;
+    left: 450px;
+    box-sizing: border-box;
+    padding: 40px;
+    height: 250px;
+    width: 300px;
+    background: #e6e6ff;
+    background-size:cover;
+    background-position: center;   
+}
+
+h1
+{
+	text-align: center;
+	top:50px;
+    margin: 0 0 20px 0;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+.login-box .inputBox
+{
+	position:relative;
+}
+
+.right-box .inputBox input
+{
+    margin-bottom: 28px;
+    width: 210px;
+    height: 32px;
+    background: transparent;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: cursive;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: text;   
+	border-bottom:1px solid #fff;
+}
+.left-box .inputBox input
+{
+    margin-bottom: 28px;
+    width: 210px;
+    height: 32px;
+    background: transparent;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: cursive;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: text;   
+	border-bottom:1px solid #fff;
+	
+}
+
+.right-box .inputBox username
+{
+	  position: absolute;
+      top: 25%;
+      right: 5%;
+	  padding: 10px 0;
+	  font-size:16px;
+	  color:#fff;
+	  transition:0.5s;
+	  cursor: text;
+  
+}
+.right-box .inputBox input:focus~username
+{
+	
+    top:-10px;
+  
+}
+.left-box .inputBox username
+{
+	  position: absolute;
+      top: 25%;
+      right: 5%;
+	  padding: 10px 0;
+	  font-size:16px;
+	  color:#fff;
+	  transition:0.5s;
+	  cursor: text;
+  
+}
+.left-box .inputBox input:focus~username
+{
+	
+    top:-10px;
+  
+}
+
+
+button.sininButton
+{
+    margin-bottom: 20px;
+    width: 220px;
+    height: 36px;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
